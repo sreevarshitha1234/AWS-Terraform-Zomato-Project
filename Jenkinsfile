@@ -5,7 +5,7 @@ pipeline{
 		nodejs 'node16'
 	}
 	environment{
-		SCANNER_HOME=tool 'sonar-server'
+		SCANNER_HOME=tool 'sonar-scanner'
 	}
 	stages{
 		stage('clean workspace'){
@@ -20,7 +20,7 @@ pipeline{
 		}
 		stage("SonarQube Code Analysis"){
 			steps{
-				withSonarQubeEnv('sonar-server'){
+				withSonarQubeEnv('sonar-scanner'){
 					sh ''' $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=zomato \
                     -Dsonar.projectKey=zomato '''
 				}
@@ -30,7 +30,7 @@ pipeline{
 			steps{
 				script{
 					 timeout(time: 2, unit: 'MINUTES'){
-					waitForQualityGate abortPipeline: false, credentialsId: 'Sonar-token'
+					waitForQualityGate abortPipeline: false, credentialsId: 'sonar-scanner'
 				}
 			}
 		}
