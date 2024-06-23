@@ -133,17 +133,25 @@ docker            cloudgen/****** (docker)
    tool name: jdk17
    Source: Install from adoptium.net 
    version: java-17.0.8.1+1 
+
+   
 #2. SonarQube:
    tool name: sonar-scanner
    version: SonaQube Scanner 5.0.1.3006
+
+   
 #3. NodeJS:
    tool name: node16
    version:   JodeJS 16.2.0
+
+   
 #4. OWASP:
    #Dependency-Check Installations:
    tool name: DP-Check
    Source: Install from github.com
    version: dependency-check 6.5.1
+
+   
 #5. Docker:
    tool name: docker
    Source: Download from docker.com 
