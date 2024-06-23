@@ -60,6 +60,86 @@
 
 
 
+# Steps for Install Terraform:
+yum update -y
+yum install yum-utils -y
+yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+yum install terraform -y
+terraform version
+
+# Steps for Install AWS CLI: 
+yum update -y
+yum install python3-pip -y
+pip3 --version
+pip3 install awscli --upgrade --user
+python3 -m awscli --version
+
+
+# For Configure AWS Accesses: 
+python3 -m awscli configure
+
+AWS Access Key ID [None]:   
+AWS Secret Access Key [None]:  
+Default region name [None]:
+Default output format [None]: 
+
+
+# For Version Checking
+
+pip3 --version
+terraform version
+python3 -m awscli --version
+
+DevOps-Project
+
+
+# Practical steps :
+[root@localhost ~]# python3 -m awscli configure
+
+AWS Access Key ID [None]:   AKIA6JASEF6UR333ESBBJUC
+AWS Secret Access Key [None]:  oTF4M48+S561S2GPWWryMgPTFMyAxP
+Default region name [None]:ap-south-1
+Default output format [None]: json
+
+
+#Credentials :
+
+#ID:               Name:
+sonar-token       sonar-token
+docker            cloudgen/****** (docker)
+
+
+#Plugins:
+   1. Eclipse Temurin Installer 
+   2. SonarQube Scanner
+   3. NodeJS
+   4. OWASP Dependency-Check
+   5. Docker
+   6. Docker Commons
+   7. Docker Pipeline
+   8. docker API
+   9. Docker-Build-Step
+   10. Docker
+
+#1. jdk17:
+   tool name: jdk17
+   Source: Install from adoptium.net 
+   version: java-17.0.8.1+1 
+#2. SonarQube:
+   tool name: sonar-scanner
+   version: SonaQube Scanner 5.0.1.3006
+#3. NodeJS:
+   tool name: node16
+   version:   JodeJS 16.2.0
+#4. OWASP:
+   #Dependency-Check Installations:
+   tool name: DP-Check
+   Source: Install from github.com
+   version: dependency-check 6.5.1
+#5. Docker:
+   tool name: docker
+   Source: Download from docker.com 
+   version: latest 
 
 
 
@@ -67,6 +147,8 @@
 
 
 # Steps for AWS IAM and Access Key Setup in AWS Account
+
+
 
 
 
