@@ -1,4 +1,4 @@
-                                                          # AWS-Terraform-Zomato-Project
+# AWS-Terraform-Zomato-Project
 
 # Flow of the Project :
 
