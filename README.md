@@ -58,8 +58,6 @@
 
 
 
-
-
 # Steps for Install Terraform:
 yum update -y
 yum install yum-utils -y
@@ -109,11 +107,10 @@ Default output format [None]: json
 
 
 
-# Credentials to Created in Jenkins :
+#Credentials :
 
 #ID:               Name:
 sonar-token       sonar-token
-
 docker            cloudgen/****** (docker)
 
 
@@ -129,33 +126,65 @@ docker            cloudgen/****** (docker)
    9. Docker-Build-Step
    10. Docker
 
-#1. jdk17:
-   tool name: jdk17
-   Source: Install from adoptium.net 
-   version: java-17.0.8.1+1 
 
+
+#1. jdk17:
+
+   tool name: jdk17
+
+   Source: Install from adoptium.net 
+
+   version: java-17.0.8.1+1 
    
+
+
+
+
 #2. SonarQube:
+
    tool name: sonar-scanner
+
    version: SonaQube Scanner 5.0.1.3006
 
-   
+
+
+
+
 #3. NodeJS:
+
    tool name: node16
+
    version:   JodeJS 16.2.0
 
-   
+
+
+
 #4. OWASP:
+
    #Dependency-Check Installations:
+
    tool name: DP-Check
+
    Source: Install from github.com
+
    version: dependency-check 6.5.1
 
-   
+
+
 #5. Docker:
+
    tool name: docker
+
    Source: Download from docker.com 
+
    version: latest 
+
+
+
+
+
+
+
 
 
 
