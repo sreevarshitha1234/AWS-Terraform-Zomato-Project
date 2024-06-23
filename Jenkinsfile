@@ -5,7 +5,7 @@ pipeline{
 		nodejs 'node16'
 	}
 	environment{
-		SCANNER_HOME=tool 'sonar-scanner'
+		SCANNER_HOME=tool 'sonar-token'
 	}
 	stages{
 		stage('clean workspace'){
@@ -20,7 +20,7 @@ pipeline{
 		}
 		stage("SonarQube Code Analysis"){
 			steps{
-				withSonarQubeEnv('sonar-scanner'){
+				withSonarQubeEnv('sonar-token'){
 					sh ''' $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=zomato \
                     -Dsonar.projectKey=zomato '''
 				}
@@ -30,7 +30,7 @@ pipeline{
 			steps{
 				script{
 					 timeout(time: 2, unit: 'MINUTES'){
-					waitForQualityGate abortPipeline: false, credentialsId: 'sonar-scanner'
+					waitForQualityGate abortPipeline: false, credentialsId: 'sonar-token'
 				}
 			}
 		}
@@ -54,7 +54,7 @@ pipeline{
 		stage("DOcker Image Build and Push"){
 			steps{
 				script{
-				withDockerRegistry(credentialsId: 'docker-hub', toolName: 'docker'){
+				withDockerRegistry(credentialsId: 'docker', toolName: 'docker'){
 					sh "docker build -t cloudzomato . "
 					sh "docker tag cloudzomato thanish/cloudzomato:latest"
 					sh "docker push thanish/cloudzomato:latest"
