@@ -74,7 +74,7 @@ python3 -m awscli --version
 
 
 # For Configure AWS Accesses: 
-python3 -m awscli configure
+[root@jumpserver opt]#python3 -m awscli configure
 
 AWS Access Key ID [None]:  
 
@@ -91,11 +91,9 @@ pip3 --version
 terraform version
 python3 -m awscli --version
 
-DevOps-Project
-
 
 # Practical steps :
-[root@localhost ~]# python3 -m awscli configure
+[root@localhost ~] # python3 -m awscli configure
 
 AWS Access Key ID [None]:   AKIA6JASEF6UR333ESBBJUC
 
@@ -107,14 +105,14 @@ Default output format [None]: json
 
 
 
-#Credentials :
+# Credentials :
 
-#ID:               Name:
+# ID:               Name:
 sonar-token       sonar-token
 docker            cloudgen/****** (docker)
 
 
-#Plugins:
+# Plugins:
    1. Eclipse Temurin Installer 
    2. SonarQube Scanner
    3. NodeJS
@@ -124,11 +122,11 @@ docker            cloudgen/****** (docker)
    7. Docker Pipeline
    8. docker API
    9. Docker-Build-Step
-   10. Docker
+  
+      
+# Tools in Jenkins:
 
-
-
-#1. jdk17:
+# 1. jdk17:
 
    tool name: jdk17
 
@@ -140,7 +138,7 @@ docker            cloudgen/****** (docker)
 
 
 
-#2. SonarQube:
+# 2. SonarQube:
 
    tool name: sonar-scanner
 
@@ -150,7 +148,7 @@ docker            cloudgen/****** (docker)
 
 
 
-#3. NodeJS:
+# 3. NodeJS:
 
    tool name: node16
 
@@ -159,7 +157,7 @@ docker            cloudgen/****** (docker)
 
 
 
-#4. OWASP:
+# 4. OWASP:
 
    #Dependency-Check Installations:
 
@@ -171,7 +169,7 @@ docker            cloudgen/****** (docker)
 
 
 
-#5. Docker:
+# 5. Docker:
 
    tool name: docker
 
