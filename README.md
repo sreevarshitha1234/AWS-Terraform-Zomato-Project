@@ -2,8 +2,7 @@
 
 # Flow of the Project :
 
-![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/6d8ebf51-d51d-4f8f-afc2-fb68a472982e)
-
+![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/a19ffd36-e7b4-4e54-8dfb-b234e775d82b)
 
 
 
