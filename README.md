@@ -74,7 +74,7 @@ python3 -m awscli --version
 
 
 # For Configure AWS Accesses: 
-[root@jumpserver opt]#python3 -m awscli configure
+# [root@jumpserver opt]#python3 -m awscli configure
 
 AWS Access Key ID [None]:  
 
@@ -93,7 +93,7 @@ python3 -m awscli --version
 
 
 # Practical steps :
-[root@localhost ~] # python3 -m awscli configure
+# [root@localhost ~] # python3 -m awscli configure
 
 AWS Access Key ID [None]:   AKIA6JASEF6UR333ESBBJUC
 
@@ -107,7 +107,7 @@ Default output format [None]: json
 
 # Credentials :
 
-# ID:               Name:
+# ID:                                    Name:
 sonar-token       sonar-token
 docker            cloudgen/****** (docker)
 
