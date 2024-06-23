@@ -1,5 +1,16 @@
-# AWS-Terraform-Zomato-Project
-Build Output:
+                                                          # AWS-Terraform-Zomato-Project
+
+# Flow of the Project :
+
+![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/6d8ebf51-d51d-4f8f-afc2-fb68a472982e)
+
+
+
+
+
+#Build Output:
+
+
 ![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/c0f87571-4797-4ec2-8d21-bd7aa6b9d6e6)
 
 
