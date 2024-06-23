@@ -78,9 +78,12 @@ python3 -m awscli --version
 # For Configure AWS Accesses: 
 python3 -m awscli configure
 
-AWS Access Key ID [None]:   
+AWS Access Key ID [None]:  
+
 AWS Secret Access Key [None]:  
+
 Default region name [None]:
+
 Default output format [None]: 
 
 
@@ -97,9 +100,13 @@ DevOps-Project
 [root@localhost ~]# python3 -m awscli configure
 
 AWS Access Key ID [None]:   AKIA6JASEF6UR333ESBBJUC
+
 AWS Secret Access Key [None]:  oTF4M48+S561S2GPWWryMgPTFMyAxP
+
 Default region name [None]:ap-south-1
+
 Default output format [None]: json
+
 
 
 #Credentials :
@@ -140,6 +147,12 @@ docker            cloudgen/****** (docker)
    tool name: docker
    Source: Download from docker.com 
    version: latest 
+
+
+
+
+
+
 
 
 
