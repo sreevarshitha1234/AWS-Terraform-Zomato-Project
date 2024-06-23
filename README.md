@@ -106,10 +106,12 @@ Default output format [None]: json
 
 
 # Credentials :
-
-# ID:                                    Name:
-sonar-token       sonar-token
-docker            cloudgen/****** (docker)
+   # SonarQube 
+# ID:    sonar-token       
+# Name: sonar-token
+   # Docker 
+# ID: docker            
+# Name: cloudgen/****** (docker)
 
 
 # Plugins:
