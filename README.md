@@ -13,6 +13,9 @@ Build Output:
 ![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/35defc96-287d-4938-8c1e-ea8bbec2db49)
 
 
+
+
+
 ![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/f376d724-550a-40c5-8d22-27727e9e59b2)
 
 
@@ -21,7 +24,11 @@ Build Output:
 ![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/43865202-d678-4d3e-8c17-e4ab0733642f)
 
 
+
+
 ![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/b821ceeb-fae0-47a9-a35a-3403a978e4d0)
+
+
 
 
 
@@ -29,7 +36,11 @@ Build Output:
 
 
 
+
+
 ![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/78ce2398-5956-481b-a296-eba8ab125bdb)
+
+
 
 
 
@@ -37,11 +48,23 @@ Build Output:
 
 
 
+
+
 ![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/69a05006-2bd9-45bc-bfe2-00c2811cb90a)
+
+
+
+
+> Steps for AWS IAM and Access Key Setup in AWS Account
+
 
 ![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/0baf637c-3981-4a21-9413-754a7166b16d)
 
+
+
 ![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/735ac881-0d8e-4f3e-9e02-a7b81977fe0f)
+
+
 
 ![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/90e12fd9-7cfa-4c15-a92f-7a4ae2e47553)
 
