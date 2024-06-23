@@ -1,4 +1,42 @@
 # AWS-Terraform-Zomato-Project
+Build Output:
+![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/c0f87571-4797-4ec2-8d21-bd7aa6b9d6e6)
+
+
+
+![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/db2924c2-8439-46d3-9cd8-183196bae294)
+
+
+![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/97b97820-4e99-4b67-8967-918b09f9613b)
+
+
+![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/35defc96-287d-4938-8c1e-ea8bbec2db49)
+
+
+![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/f376d724-550a-40c5-8d22-27727e9e59b2)
+
+
+
+
+![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/43865202-d678-4d3e-8c17-e4ab0733642f)
+
+
+![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/b821ceeb-fae0-47a9-a35a-3403a978e4d0)
+
+
+
+![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/90ea68c8-912c-4fcd-809d-a1902a7543ac)
+
+
+
+![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/78ce2398-5956-481b-a296-eba8ab125bdb)
+
+
+
+![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/44b9a8c9-1a04-4826-9450-bce807354680)
+
+
+
 ![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/69a05006-2bd9-45bc-bfe2-00c2811cb90a)
 
 ![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/0baf637c-3981-4a21-9413-754a7166b16d)
