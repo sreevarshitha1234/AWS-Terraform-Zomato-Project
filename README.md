@@ -59,18 +59,18 @@
 
 
 # Steps for Install Terraform:
-yum update -y
-yum install yum-utils -y
-yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
-yum install terraform -y
-terraform version
+               yum update -y
+               yum install yum-utils -y
+               yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+               yum install terraform -y
+               terraform version
 
 # Steps for Install AWS CLI: 
-yum update -y
-yum install python3-pip -y
-pip3 --version
-pip3 install awscli --upgrade --user
-python3 -m awscli --version
+               yum update -y
+               yum install python3-pip -y
+               pip3 --version
+               pip3 install awscli --upgrade --user
+               python3 -m awscli --version
 
 
 # For Configure AWS Accesses: 
@@ -87,9 +87,9 @@ Default output format [None]:
 
 # For Version Checking
 
-pip3 --version
-terraform version
-python3 -m awscli --version
+               pip3 --version
+               terraform version
+               python3 -m awscli --version
 
 
 # Practical steps :
@@ -107,44 +107,44 @@ Default output format [None]: json
 
 # Credentials :
    # SonarQube 
-            # ID:    sonar-token       
-            # Name: sonar-token
+               # ID:    sonar-token       
+               # Name: sonar-token
    # Docker 
-      # ID: docker            
-      # Name: cloudgen/****** (docker)
+                  # ID: docker            
+                  # Name: cloudgen/****** (docker)
 
 
 # Plugins:
-   1. Eclipse Temurin Installer 
-   2. SonarQube Scanner
-   3. NodeJS
-   4. OWASP Dependency-Check
-   5. Docker
-   6. Docker Commons
-   7. Docker Pipeline
-   8. docker API
-   9. Docker-Build-Step
-  
+               1. Eclipse Temurin Installer 
+               2. SonarQube Scanner
+               3. NodeJS
+               4. OWASP Dependency-Check
+               5. Docker
+               6. Docker Commons
+               7. Docker Pipeline
+               8. docker API
+               9. Docker-Build-Step
+     
       
 # Tools in Jenkins:
 
 # 1. jdk17:
 
-   tool name: jdk17
-
-   Source: Install from adoptium.net 
-
-   version: java-17.0.8.1+1 
-   
+               tool name: jdk17
+            
+               Source: Install from adoptium.net 
+            
+               version: java-17.0.8.1+1 
+               
 
 
 
 
 # 2. SonarQube:
 
-   tool name: sonar-scanner
-
-   version: SonaQube Scanner 5.0.1.3006
+               tool name: sonar-scanner
+            
+               version: SonaQube Scanner 5.0.1.3006
 
 
 
@@ -152,39 +152,33 @@ Default output format [None]: json
 
 # 3. NodeJS:
 
-   tool name: node16
-
-   version:   JodeJS 16.2.0
+                  tool name: node16
+               
+                  version:   JodeJS 16.2.0
 
 
 
 
 # 4. OWASP:
 
-   #Dependency-Check Installations:
-
-   tool name: DP-Check
-
-   Source: Install from github.com
-
-   version: dependency-check 6.5.1
+               #Dependency-Check Installations:
+            
+               tool name: DP-Check
+            
+               Source: Install from github.com
+            
+               version: dependency-check 6.5.1
 
 
 
 # 5. Docker:
 
-   tool name: docker
-
-   Source: Download from docker.com 
-
-   version: latest 
-
-
-
-
-
-
-
+               tool name: docker
+            
+               Source: Download from docker.com 
+            
+               version: latest 
+            
 
 
 
