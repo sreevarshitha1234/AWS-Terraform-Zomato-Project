@@ -50,12 +50,24 @@ Build Output:
 
 
 
-![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/69a05006-2bd9-45bc-bfe2-00c2811cb90a)
+
+
 
 
 
 
 # Steps for AWS IAM and Access Key Setup in AWS Account
+
+
+
+
+
+![image](https://github.com/Cloud-Gen-DevOps-Projects/AWS-Terraform-Zomato-Project/assets/25892488/69a05006-2bd9-45bc-bfe2-00c2811cb90a)
+
+
+
+
+
 
 
 
