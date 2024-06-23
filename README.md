@@ -109,10 +109,11 @@ Default output format [None]: json
 
 
 
-#Credentials :
+# Credentials to Created in Jenkins :
 
 #ID:               Name:
 sonar-token       sonar-token
+
 docker            cloudgen/****** (docker)
 
 
