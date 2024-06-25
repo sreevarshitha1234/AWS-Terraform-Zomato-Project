@@ -64,12 +64,12 @@ pipeline{
 			}
 		stage("TRIVY is Image Scanning"){
 			steps{
-				sh "trivy image thanish/terraform-aws-cloudzomato:latest >trivy.txt"
+				sh "trivy image thanish/cloudzomato:latest >trivy.txt"
 			}
 		}
 		stage("Creating Docker Container "){
 			steps{
-				sh 'docker run -d --name zomato-app -h zomato -p 3000:3000 thanish/terraform-aws-cloudzomato:latest'
+				sh 'docker run -d --name zomato-app -h zomato -p 3000:3000 thanish/cloudzomato:latest'
 			}
 		}
 	}
